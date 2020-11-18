@@ -1,4 +1,6 @@
-const moment = require('moment-timezone')
+const dayjs = require('dayjs')
+const utc = require('dayjs/plugin/utc')
+const timezone = require('dayjs/plugin/timezone')
 
 const withPlugins = require('next-compose-plugins')
 
@@ -8,12 +10,15 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+dayjs.extend(utc)
+dayjs.extend(timezone)
+
 module.exports = withPlugins(
   [[withOffline], [withWorkers], [withBundleAnalyzer]],
   {
     target: 'serverless',
     env: {
-      buildNumber: moment().tz('Asia/Bangkok').format('YYYYMMDD.HH'),
+      buildNumber: dayjs.tz(dayjs(), 'Asia/Bangkok').format('YYYYMMDD.HH'),
     },
     future: {
       excludeDefaultMomentLocales: true,

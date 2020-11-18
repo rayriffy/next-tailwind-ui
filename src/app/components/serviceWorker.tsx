@@ -72,11 +72,11 @@ export const ServiceWorker: FunctionComponent = memo(props => {
   const getFullDescription = (code: string) => {
     switch (code) {
       case 'onServiceWorkerUpdateFound':
-        return `Updating Riffy H to ${process.env.buildNumber}!`
+        return `Updating application to ${process.env.buildNumber}!`
       case 'onServiceWorkerInstalled':
         return 'Ready to use when offline!'
       case 'onServiceWorkerUpdateReady':
-        return 'Update completed! Please reload to newer version of Riffy H'
+        return 'Update completed! Please reload to newer version of application'
       default:
         return '###'
     }

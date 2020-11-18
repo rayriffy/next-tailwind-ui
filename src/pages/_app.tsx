@@ -1,8 +1,11 @@
-import { Fragment } from 'react'
+import React from 'react'
 
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
-import Head from 'next/head'
+
+import { Context } from '../context/storeon'
+import { HeadTitle } from '../core/components/headTitle'
+import { AppLayout } from '../app/components/layout'
 
 import '../styles/tailwind.css'
 
@@ -10,12 +13,12 @@ const NextApp: NextPage<AppProps> = props => {
   const { Component, pageProps } = props
 
   return (
-    <Fragment>
-      <Head>
-        <title>Next Template</title>
-      </Head>
-      <Component {...pageProps} />
-    </Fragment>
+    <Context>
+      <HeadTitle />
+      <AppLayout>
+        <Component {...pageProps} />
+      </AppLayout>
+    </Context>
   )
 }
 
