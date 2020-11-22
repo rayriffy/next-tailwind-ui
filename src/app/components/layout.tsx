@@ -8,7 +8,7 @@ export const AppLayout: FunctionComponent = props => {
 
   return (
     <Fragment>
-      <main className="bg-gray-100 min-h-screen">{children}</main>
+      <main className="bg-gray-50 min-h-screen">{children}</main>
       <Footer />
       <ServiceWorker />
     </Fragment>
