@@ -28,7 +28,6 @@ module.exports = withPlugins(
       domains: [],
     },
     experimental: {
-      modern: true,
       polyfillsOptimization: true,
       scrollRestoration: true,
     },
