@@ -17,7 +17,7 @@ export const HeadTitle: React.FC<Props> = props => {
   const { dispatch } = useStoreon('title')
 
   const transformedTitle = useMemo(
-    () => (title ? `${title} · rayriffy` : 'rayriffy'),
+    () => (title ? `${title} · Next Tailwind UI` : 'Next Tailwind UI'),
     [title]
   )
 

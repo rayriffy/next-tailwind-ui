@@ -1,5 +1,6 @@
 import { FunctionComponent, Fragment } from 'react'
 
+import { Footer } from './footer'
 import { ServiceWorker } from './serviceWorker'
 
 export const AppLayout: FunctionComponent = props => {
@@ -7,7 +8,8 @@ export const AppLayout: FunctionComponent = props => {
 
   return (
     <Fragment>
-      {children}
+      <main className="bg-gray-100 min-h-screen">{children}</main>
+      <Footer />
       <ServiceWorker />
     </Fragment>
   )

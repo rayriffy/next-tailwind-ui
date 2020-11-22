@@ -21,7 +21,8 @@ module.exports = withPlugins(
       buildNumber: dayjs.tz(dayjs(), 'Asia/Bangkok').format('YYYYMMDD.HH'),
     },
     future: {
-      excludeDefaultMomentLocales: true,
+      // If you're decided to use moment instad of dayjs, use this option to strip all locale from moment to reduce chunk size
+      // excludeDefaultMomentLocales: true,
     },
     images: {
       domains: [],
