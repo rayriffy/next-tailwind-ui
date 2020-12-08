@@ -9,25 +9,26 @@ const withOffline = require('next-offline')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+const withPreact = require('next-plugin-preact')
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
 module.exports = withPlugins(
-  [[withOffline], [withWorkers], [withBundleAnalyzer]],
+  [[withOffline], [withWorkers], [withPreact], [withBundleAnalyzer]],
   {
     target: 'serverless',
     env: {
       buildNumber: dayjs.tz(dayjs(), 'Asia/Bangkok').format('YYYYMMDD.HH'),
     },
     future: {
-      excludeDefaultMomentLocales: true,
+      // If you're decided to use moment instad of dayjs, use this option to strip all locale from moment to reduce chunk size
+      // excludeDefaultMomentLocales: true,
     },
     images: {
       domains: [],
     },
     experimental: {
-      modern: true,
       polyfillsOptimization: true,
       scrollRestoration: true,
     },
