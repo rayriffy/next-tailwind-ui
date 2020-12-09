@@ -44,7 +44,7 @@
     "preact-render-to-string": "^5.1.12",
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
-    "storeon": "^3.1.1",
+    "storeon": "^3.1.2",
     "swr": "^0.3.9",
     "tailwindcss": "^2.0.1",
     "worker-loader": "^3.0.6"
