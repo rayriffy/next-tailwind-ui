@@ -34,7 +34,7 @@
     "@zeit/next-workers": "^1.0.0",
     "dayjs": "^1.10.3",
     "lodash": "^4.17.20",
-    "markdown-to-jsx": "^7.1.0",
+    "markdown-to-jsx": "^7.1.1",
     "next": "^10.0.5",
     "next-compose-plugins": "^2.2.1",
     "next-offline": "^5.0.3",
