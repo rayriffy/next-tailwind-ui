@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState, FunctionComponent, memo } from 'react'
 
-import { Speakerphone } from '../../core/components/icons/speakerphone'
-import { X } from '../../core/components/icons/x'
+import { SpeakerphoneOutline, XOutline } from 'heroicons'
 
 export const ServiceWorker: FunctionComponent = memo(props => {
   const [serviceWorkerStatus, setServiceWorkerStatus] = useState<string>('init')
@@ -102,7 +101,7 @@ export const ServiceWorker: FunctionComponent = memo(props => {
                     isInstalled ? 'bg-green-800' : 'bg-gray-800'
                   }`}
                 >
-                  <Speakerphone className="h-6 w-6 text-white" />
+                  <SpeakerphoneOutline className="h-6 w-6 text-white" />
                 </span>
                 <p className="ml-3 font-medium text-white truncate">
                   <span className="md:hidden">
@@ -136,7 +135,7 @@ export const ServiceWorker: FunctionComponent = memo(props => {
                   }`}
                   aria-label="Dismiss"
                 >
-                  <X className="h-6 w-6 text-white" />
+                  <XOutline className="h-6 w-6 text-white" />
                 </button>
               </div>
             </div>
