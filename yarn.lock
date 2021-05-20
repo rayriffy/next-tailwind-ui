@@ -1087,10 +1087,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@headlessui/react@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.1.0.tgz#04cf1e779cdd514b294dc863205b686a5922fa93"
-  integrity sha512-cauadRPiC3lDxudbgLkHThAhfqLIzp7159z2tNjODxrpOnckOk809rfAj63YdXWreRbLETNOupq1pC4i1NX9xA==
+"@headlessui/react@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.2.0.tgz#e48652bfce82ddf73d7f331faeb9db6526ee6874"
+  integrity sha512-19DkLz8gDgbi+WvkoTzi9vs0NK9TJf94vbYhMzB4LYJo03Kili0gmvXT9CiKZoxXZ7YAvy/b1U1oQKEnjWrqxw==
 
 "@next/bundle-analyzer@^10.2.2":
   version "10.2.2"
