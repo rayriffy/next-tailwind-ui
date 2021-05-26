@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect } from 'react'
+import { FunctionComponent, useMemo, useEffect } from 'react'
 
 import Head from 'next/head'
 import { useRouter } from 'next/router'
@@ -10,7 +10,7 @@ interface Props {
   description?: string
 }
 
-export const HeadTitle: React.FC<Props> = props => {
+export const HeadTitle: FunctionComponent<Props> = props => {
   const { title, description = 'Next Tailwind template', children } = props
 
   const router = useRouter()

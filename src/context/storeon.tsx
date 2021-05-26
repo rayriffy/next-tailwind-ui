@@ -1,6 +1,4 @@
-import { FunctionComponent } from 'react'
-
-import { createContext } from 'react'
+import { FunctionComponent, createContext } from 'react'
 
 import { createStoreon } from 'storeon'
 import { customContext } from 'storeon/react'

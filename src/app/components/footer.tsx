@@ -1,6 +1,6 @@
-import React from 'react'
+import { FunctionComponent, memo } from 'react'
 
-export const Footer: React.FC = React.memo(props => {
+export const Footer: FunctionComponent = memo(() => {
   return (
     <footer className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">

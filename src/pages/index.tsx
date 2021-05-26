@@ -1,8 +1,6 @@
-import React from 'react'
-
 import { NextPage } from 'next'
 
-import { ArrowRightOutline } from 'heroicons'
+import { ArrowRightIcon } from '@heroicons/react/outline'
 
 const Page: NextPage = props => {
   return (
@@ -15,7 +13,7 @@ const Page: NextPage = props => {
         <div className="grid grid-cols-2 gap-4 pt-6">
           <div className="col-span-2 md:col-span-1 rounded-lg p-6 space-y-2 transition border border-gray-200 hover:border-blue-500 hover:text-blue-500 bg-white">
             <h1 className="text-2xl font-bold inline-flex items-center">
-              Preconfigured <ArrowRightOutline className="w-6 h-6 ml-2" />
+              Preconfigured <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
               Don't waste time on configure your project every time! This
@@ -24,7 +22,7 @@ const Page: NextPage = props => {
           </div>
           <div className="col-span-2 md:col-span-1 rounded-lg p-6 space-y-2 transition border border-gray-200 hover:border-blue-500 hover:text-blue-500 bg-white">
             <h1 className="text-2xl font-bold inline-flex items-center">
-              Up-to-date <ArrowRightOutline className="w-6 h-6 ml-2" />
+              Up-to-date <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
               If you don't see deprecation notice yet, means I still using this
@@ -33,7 +31,7 @@ const Page: NextPage = props => {
           </div>
           <div className="col-span-2 md:col-span-1 rounded-lg p-6 space-y-2 transition border border-gray-200 hover:border-blue-500 hover:text-blue-500 bg-white">
             <h1 className="text-2xl font-bold inline-flex items-center">
-              Optimized for Tailwind UI <ArrowRightOutline className="w-6 h-6 ml-2" />
+              Optimized for Tailwind UI <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
               Someone may say "Why did you pay money that much when we have
@@ -42,7 +40,7 @@ const Page: NextPage = props => {
           </div>
           <div className="col-span-2 md:col-span-1 rounded-lg p-6 space-y-2 transition border border-gray-200 hover:border-blue-500 hover:text-blue-500 bg-white">
             <h1 className="text-2xl font-bold inline-flex items-center">
-              Ready to deploy <ArrowRightOutline className="w-6 h-6 ml-2" />
+              Ready to deploy <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>Deploy your site with zero configuration to Vercel</p>
           </div>
