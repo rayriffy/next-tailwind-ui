@@ -18,9 +18,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "paths": {
-      "heroicons": ["src/core/components/icons"]
-    },
+    "paths": {}
   },
   "include": [
     "next-env.d.ts",
