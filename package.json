@@ -26,7 +26,6 @@
     ]
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^12.1.4",
     "@headlessui/react": "^1.2.0",
     "@next/bundle-analyzer": "^10.2.3",
     "@tailwindcss/aspect-ratio": "^0.2.1",
@@ -53,6 +52,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@types/lodash": "^4.14.170",
     "@types/markdown-to-jsx": "^7.0.1",
     "@types/node": "^15.6.1",
