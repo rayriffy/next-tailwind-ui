@@ -16,7 +16,7 @@ const Page: NextPage = props => {
               Preconfigured <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
-              Don't waste time on configure your project every time! This
+              Don&apos;t waste time on configure your project every time! This
               template is already preconfigured and ready to use.
             </p>
           </div>
@@ -25,7 +25,7 @@ const Page: NextPage = props => {
               Up-to-date <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
-              If you don't see deprecation notice yet, means I still using this
+              If you don&apos;t see deprecation notice yet, means I still using this
               template as a base and I still keeping this template up-to-date.
             </p>
           </div>
@@ -34,8 +34,8 @@ const Page: NextPage = props => {
               Optimized for Tailwind UI <ArrowRightIcon className="w-6 h-6 ml-2" />
             </h1>
             <p>
-              Someone may say "Why did you pay money that much when we have
-              Tailblocks?", and I will say "Have you tried Tailwind UI before?"
+              Someone may say &quot;Why did you pay money that much when we have
+              Tailblocks?&quot;, and I will say &quot;Have you tried Tailwind UI before?&quot;
             </p>
           </div>
           <div className="col-span-2 md:col-span-1 rounded-lg p-6 space-y-2 transition border border-gray-200 hover:border-blue-500 hover:text-blue-500 bg-white">
