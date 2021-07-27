@@ -22,7 +22,6 @@ module.exports = withPlugins(
       buildNumber: dayjs.tz(dayjs(), 'Asia/Bangkok').format('YYYYMMDD.HH'),
     },
     future: {
-      webpack5: true,
       excludeDefaultMomentLocales: true,
     },
     images: {
