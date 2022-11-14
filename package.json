@@ -54,7 +54,7 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@types/lodash": "^4.14.171",
+    "@types/lodash": "^4.14.189",
     "@types/markdown-to-jsx": "^7.0.1",
     "@types/node": "^16.4.10",
     "@types/react": "^17.0.15",
